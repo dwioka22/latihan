@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+require_once ('admin.php');
 // Route::get('/', function () {
 //     return view('welcome');
 // });
@@ -23,7 +23,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::controller(GeneralController::class)->group(function () {
     Route::get('/','about');
-    Route::get('/pengalaman','exp');
+    Route::get('/pengalaman','exp');//
     Route::get('/hidup','awards');
-     Route::get('/skil','skill');
+    Route::get('/skill','skill');
+    Route::get('/perintah','education');
+    Route::get('/kelakuan','interests');
+
 });

@@ -4,11 +4,15 @@
 <!-- Education-->
 <section class="resume-section" id="education">
     <div class="resume-section-content">
-        <h2 class="mb-5">Education</h2>
+        <h2 class="mb-5">perlindungan saya </h2>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
                 <h3 class="mb-0">University of Colorado Boulder</h3>
                 <div class="subheading mb-3">Bachelor of Science</div>
+                <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day,
+                    going forward, a new normal that has evolved from generation X is on the runway heading towards a
+                    streamlined cloud solution. User generated content in real-time will have multiple touchpoints for
+                    offshoring.</p>
                 <div>Computer Science - Web Development Track</div>
                 <p>GPA: 3.23</p>
             </div>

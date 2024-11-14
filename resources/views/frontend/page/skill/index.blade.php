@@ -1,10 +1,22 @@
 @extends('frontend.layout.app')
 
 @section('content')
-<!-- Skills-->
-<section class="resume-section" id="skills">
+<section class="resume-section" id="skill">
     <div class="resume-section-content">
-        <h2 class="mb-5">Skills</h2>
+         <!-- Tampilkann Judul -->        
+         <h1 class="mb-0">
+            <!--memanggil variable data di controoler -->
+            {{$t2}}
+        </h1>
+        <h1 class="subheading mb-3">
+            <!--memanggil variable data di controoler -->
+            {{$t3}}
+        </h1>
+
+         
+
+    <div class="resume-section-content">
+        <h2 class="mb-5">Skills  </h2>
         <div class="subheading mb-3">Programming Languages & Tools</div>
         <ul class="list-inline dev-icons">
             <li class="list-inline-item"><i class="fab fa-html5"></i></li>
@@ -43,10 +55,10 @@
 </section>
 @endsection
 
-@push('styles')
+@push('style')
 
 @endpush
 
-@push('scrip')
+@push('script')
 
 @endpush
